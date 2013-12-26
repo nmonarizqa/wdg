@@ -1,0 +1,217 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0031)http://www.nandayjuandiego.com/ -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+	<title>~Nofandy Nurvirta~</title>
+
+		<link rel="stylesheet" href="./Nanda & Juan Diego_files/style.css" type="text/css" media="screen">
+<link href="./Nanda & Juan Diego_files/css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" async="" src="./Nanda & Juan Diego_files/ga.js"></script><script type="text/javascript" src="./Nanda & Juan Diego_files/jquery.min.js"></script>
+		<script src="./Nanda & Juan Diego_files/jquery.validate.pack.js" type="text/javascript"></script>
+		<script src="./Nanda & Juan Diego_files/jquery.localscroll-min.js" type="text/javascript"></script>
+		<script src="./Nanda & Juan Diego_files/jquery.scrollTo-min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="./Nanda & Juan Diego_files/shadowbox.css">
+<script type="text/javascript" src="./Nanda & Juan Diego_files/shadowbox.js"></script>
+<script type="text/javascript">
+Shadowbox.init();
+</script>
+
+		<script type="text/javascript">
+		$(document).ready(function () {
+			$.localScroll.defaults.axis = 'x';
+			$.localScroll();
+			updsize();
+		});
+		
+		function updsize() {
+			newWidth = $(window).width();
+			console.log(newWidth);
+			$('.box').width(newWidth); 
+			$('#subcon').width(newWidth*7 + 50);
+		}
+		
+		$(window).resize(function() {
+			updsize();
+		});
+		
+		</script>
+		
+		<script type="text/javascript">
+$(document).ready(function(){
+$("#contactform").validate();
+});
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+function initialize() {
+  var myLatlng = new google.maps.LatLng(-25.363882,131.044922);
+  var latlngMalang = new google.maps.LatLng(-7.969377,112.632713);
+  var mapOptions = {
+    zoom: 4,
+    center: myLatlng
+  }
+  
+  var mapOptionsMalang = {
+    zoom: 14,
+    center: latlngMalang
+  }
+  var mapjogja = new google.maps.Map(document.getElementById('mapjogja'), mapOptions);
+
+  var markerjogja = new google.maps.Marker({
+      position: myLatlng,
+      map: mapjogja,
+      title: 'Hotel Universitas'
+  });
+  
+  var mapmalang = new google.maps.Map(document.getElementById('mapmalang'), mapOptionsMalang);
+
+  var markermalang = new google.maps.Marker({
+      position: latlngMalang,
+      map: mapmalang,
+      title: 'Hotel Reagent'
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+
+    </script>	
+</head>
+<body class="homepage">
+				
+	<div id="menu">
+		<ul>
+			<li><a href="#box1">Home</a></li>
+			<li><a href="#box2">Lokasi</a></li>
+			<li><a href="#box3">Nofandy &amp; Nurvirta</a></li>
+			<li><a href="#box7">FAQ</a></li>
+		</ul>
+	</div>
+	
+	<div id="container">
+	<a name="home"></a>
+	<div id="subcon" style="width: 10928px;">
+		
+
+		<div id="box1" class="box" style="width: 1366px;">
+			<!--<a name="box1"></a>-->
+		</div>
+		
+		<div id="box2" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<div class="mapcol" id="mapcol1">
+				<div class="map" id="mapjogja"></div>
+				<div class="location"><p align="center">Hotel Universitas, Jogjakarta :)</p></div>
+			</div>
+			<div class="mapcol" id="mapcol2">
+				<a href="http://maps.google.com/?q=-7.969377,112.632713" target="_blank"><div class="map" id="mapmalang"></div></a>
+				<div class="location"></div>
+			</div>
+		</div>
+		</div>
+		<div id="box3" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<div class="middleimage"></div>
+			<div class="leftcolumn"></div>
+			<div class="rightcolumn"></div>
+		</div>
+		</div>
+		
+		<div id="box4" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<a name="box4"></a>
+			
+			
+			</div>
+		</div>
+
+<div id="box5" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<a name="box5"></a>
+			
+			<div class="conf">
+			
+			
+
+
+<form method="post" action="http://www.nandayjuandiego.com/index.php" id="contactform">
+<div>
+    <label for="name"><strong>Nombre:</strong></label><br>
+<input type="text" size="500" name="contactname" id="contactname" value="" class="required campo">
+</div>
+<br>
+<div>
+<label for="email"><strong>Email:</strong></label><br>
+<input type="text" size="50" name="email" id="email" value="" class="email campo">
+</div>
+<br>
+<div>
+<label for="subject"><strong>¿Asistirá?</strong></label>&nbsp;&nbsp;
+<input type="radio" name="subject" value="Si" checked=""> Sí&nbsp;&nbsp;&nbsp;
+<input type="radio" name="subject" value="No"> No
+</div>
+<br>
+
+<div>
+<label for="message"><strong>Comentarios:</strong></label><br>
+<textarea rows="5" cols="40" name="message" id="message" class="required"></textarea>
+</div>
+<br>
+    <input type="submit" value="Enviar" name="submit" class="submit">
+</form>
+
+</div>
+			
+			</div>
+		</div>
+		<div id="box6" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<a name="box6"></a>
+			<a class="fotosmatri" rel="shadowbox" href="https://picasaweb.google.com/105228113155990476077/Matrimonio#slideshow/5631959806556387506">fotos</a>
+			
+			
+			</div>
+		</div>
+		<div id="box7" class="box" style="width: 1366px;">
+		<div class="innerbox">
+			<a name="box7"></a>
+			<a href="http://www.nandayjuandiego.com/recomendar.php" class="recomendar" rel="shadowbox;height=410;width=360">recomendar</a>
+			
+			<a href="http://www.nandayjuandiego.com/nandayjuandiego.zip" class="descargar">descargar</a>
+			<div class="player">
+			<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,28,0" width="340" height="200"><param name="movie" value="http://8tracks.com/mixes/300366/player_v3"><param name="allowscriptaccess" value="always"><embed src="http://8tracks.com/mixes/300366/player_v3" pluginspage="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="340" height="200" allowscriptaccess="always"></object></div>
+			</div>
+		</div>
+
+</div>
+	</div>
+    <script type="text/javascript">
+
+ 
+
+  var _gaq = _gaq || [];
+
+  _gaq.push(['_setAccount', 'UA-23080475-1']);
+
+  _gaq.push(['_trackPageview']);
+
+ 
+
+  (function() {
+
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+
+  })();
+
+ 
+
+</script>
+
+
+
+
+<div id="sb-container"><div id="sb-overlay"></div><div id="sb-wrapper"><div id="sb-title"><div id="sb-title-inner"></div></div><div id="sb-wrapper-inner"><div id="sb-body"><div id="sb-body-inner"></div><div id="sb-loading"><div id="sb-loading-inner"><span>loading</span></div></div></div></div><div id="sb-info"><div id="sb-info-inner"><div id="sb-counter"></div><div id="sb-nav"><a id="sb-nav-close" title="Close" onclick="Shadowbox.close()"></a><a id="sb-nav-next" title="Next" onclick="Shadowbox.next()"></a><a id="sb-nav-play" title="Play" onclick="Shadowbox.play()"></a><a id="sb-nav-pause" title="Pause" onclick="Shadowbox.pause()"></a><a id="sb-nav-previous" title="Previous" onclick="Shadowbox.previous()"></a></div></div></div></div></div></body></html>
