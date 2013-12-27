@@ -133,15 +133,13 @@ overflow:hidden;
 qqborder:1px solid red;
 width:8000px;
 position:absolute;;
-bottom:0px;
+top:80px;
 }
 
 .box {
-width: 980px;
 float:left;
 line-height: 22px;
 margin:0px;
-height:580px;
 overflow:hidden;
 border:1px solid yellow;
 background-color:#0000ff;
@@ -152,11 +150,11 @@ background-color:#0000ff;
     margin: auto;
     overflow: hidden;
     width: 960px;
-    qqborder:3px solid red;
+   	border:1px solid red;
 }
 
 .mapcol{
-	width:477px;
+	width:49.5%;
 	height:100%;
 	margin: auto;
 	border: 1px solid pink;
@@ -208,115 +206,60 @@ background:url(images/box6.png) bottom center no-repeat;
 background:url(images/box7.png) bottom center no-repeat;
 }
 
-.player {
-position:relative;
-top: 140px;
-right: -175px;
-float:right;
-}
-
-.anim {
-position:relative;
-top: 143px;
-left: 633px;
-}
-
-.conf {
-width:380px;
-float:right;
-overflow:hidden;
-position:relative;
-top:70px;
-z-index:600;
-}
-
-.conf .campo {
-width:300px;
-background:#FFFF00;
-border:none;
-padding:5px;
-}
-
-.conf textarea {
-width:290px;
-background:#FFFF00;
-border:none;
-padding:10px;
-font-family: helvetica,arial;
-font-size:12px;
-}
-
-.popup .conf h3 {
-background: #216F74;
-}
-
-.submit {
-background:#D8624D;
-padding:5px;
-color:#FFF;
-border:none;
-text-transform: uppercase;
-font-weight:bold;
-font-size:14px;
-cursor:pointer;
-}
-
-.conf br {
-line-height:10px;
-}
-
-.popup {
-padding:20px;
-}
-
-.popup .conf {
-	top:0px !important;
-	width:320px;
+#iib {	
+	margin:5px;
+	width:48%;
 	float:left;
-	
 }
 
-.recomendar {
-display:block;
-float:left;
-background:url(images/recomendar.png) top left no-repeat;
-text-indent:-9999px;
-width:187px;
-height:71px;
-position:relative;
-left:85px;
-top:358px;
+#mona {
+	margin:5px;
+	width:48%;
+	float:left;
 }
 
-.descargar {
-display:block;
-float:right;
-background:url(images/descargar.png) top left no-repeat;
-text-indent:-9999px;
-width:187px;
-height:71px;
-position:relative;
-right:90px;
-top:52px;
-z-index:700;
+#foto_iib{
+	margin:10px 0px 0px 10px;
+	width:80px;
+	height:120px;
+	float:left;
 }
 
-a.muestras {
-display:block;
-width:150px;
-height:25px;
-position:relative;
-left:100px;
-top:330px;
+#foto_mona{
+	margin:10px 10px 0px 0px;
+	width:80px;
+	height:120px;
+	float:right;
 }
 
-.fotosmatri {
-position:relative;
-top:150px;
-width:340px;
-left:450px;
-height:267px;
-display:block;
-background:none;
-text-indent:-9999px;
+.foto{
+	margin:10px 0px 0px 10px;
+	width:80px;
+	height:120px;
+	float:left;
+}
+
+.foto img{
+	width:80px;
+	height:120px;
+}
+
+.deskripsi {
+	float:left;
+}
+.question{
+	width:150px;
+	height:125px;
+	margin:10px;
+	background:url("bubble.png") top center no-repeat;
+	text-align:center;
+}
+
+.question a{
+	line-height:400px;
+}
+#close_x{
+	position:absolute;
+	top:5px;
+	right:5px;
 }
