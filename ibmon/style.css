@@ -76,9 +76,10 @@ top: 0px;
 clear: both;
 float: left;
 margin: 0;
-margin-top:20px;
+padding-top:20px;
 z-index: 500;
 font-family: 'menuPacifico',arial;
+/*background-color:#FFFFFF; dipake kalo ada yang overflow ke bawah*/
 }
 
 #menu ul{
@@ -116,7 +117,6 @@ padding: 0;
 }
 
 #container {
-position: relative;
 width: 6000px;
 margin: 0;
 padding: 0;
@@ -126,10 +126,9 @@ height:100%;
 }
 
 #subcon {
-overflow:hidden;
 qqborder:1px solid red;
 width:8000px;
-position:absolute;;
+position:absolute;
 top:80px;
 }
 
@@ -137,7 +136,6 @@ top:80px;
 float:left;
 line-height: 22px;
 margin:0px;
-overflow:hidden;
 border:1px solid yellow;
 background-color:#0000ff;
 }
@@ -145,14 +143,12 @@ background-color:#0000ff;
 .innerbox {
     height: 100%;
     margin: auto;
-    overflow: hidden;
     width: 1080px;
    	border:1px solid red;
 }
 
 .loc_col{
 	width:33%;
-	height:100%;
 	margin: auto;
 	border: 1px solid white;
 	float:left;
@@ -166,8 +162,6 @@ background-color:#0000ff;
 .box a {
 line-height:0px;
 }
-
-
 
 .box p {
 padding: 0 0 10px;
@@ -188,18 +182,6 @@ background:url(images/box3.png) bottom center no-repeat;
 
 #box4  {
 background:url(images/box4.png) bottom center no-repeat;
-}
-
-#box5  {
-background:url(images/box5.png) bottom center no-repeat;
-}
-
-#box6  {
-background:url(images/box6.png) bottom center no-repeat;
-}
-
-#box7  {
-background:url(images/box7.png) bottom center no-repeat;
 }
 
 #iib {	
