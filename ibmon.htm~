@@ -138,7 +138,7 @@ Sed in sodales erat, ut mattis risus. Vivamus at nulla tempor, varius diam non, 
 		</div> <!-- end of box2 -->
 		<div id="box3" class="box">
 		<div class="innerbox">
-			<div class="map"><img src="dummymap.jpg" alt="petapeta"/></div>
+			<div class="map"><img src="dummymap.jpg" alt="petapeta"</div>
 			<div class="loc_col" id="loc_akad">
 				<div class="location">
 					<p align="center">Akad Nikah<br/>
