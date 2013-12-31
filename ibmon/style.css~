@@ -243,5 +243,5 @@ background:url(images/box4.png) bottom center no-repeat;
 }
 
 p{
-	font-family: 'helveticaNeueP', Helvetica;
+	font-family: 'helveticaneue-webfont', Helvetica;
 }

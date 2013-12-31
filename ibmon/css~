@@ -6,7 +6,7 @@
 };
 
 @font-face {
-  font-family: 'helveticaNeueP';
+  font-family: 'helveticaNeue';
   font-style: normal;
   font-weight: 400;
   src: local('☺'), url(helveticaneue-webfont.ttf) format('woff');
